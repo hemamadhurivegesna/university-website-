@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8"><!--recognizable characters-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--to make it responsive-->
+    <!--width is being set to the device width in which the website is seen and initial scale states
+    by how much the website should be zoomed-->
+    <title>University Website</title><!--Tab title-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css"><!--linking style sheet-->
+  </head>
+  <body>
+    <!-- Header Section -->
+    <section class="sub-header">
+      <nav>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="aboutUs.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="contactUs.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Our Courses</h1>
+    </section>
+    <!-- Course section-->
+    <section class="course" id="course">
+      <h1>Courses We Offer</h1>
+      <p>World class courses with plenty of variety all at one place.</p>
+      <div class="row">
+        <div class="course-col">
+          <h3>Intermediate</h3>
+          <p>                         having more than a basic knowledge of something but not yet advanced; suitable for somebody who is at this level.</p>
+        </div>
+        <div class="course-col">
+          <h3>Degree</h3>
+          <p>degree, also called academic degree, in education, any of several titles conferred by colleges and universities to indicate the completion of a course of study or the extent of academic achievement..</p>
+        </div>
+        <div class="course-col">
+          <h3>Post Graduation</h3>
+          <p>Postgraduate education is any higher education undertaken after a bachelor's degree. </p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
